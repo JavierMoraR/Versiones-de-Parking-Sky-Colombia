@@ -1,0 +1,20 @@
+header{
+	width:550PX;
+	height:150PX;
+	background-image:url(../imagenes/header.PNG)
+	}
+	#logo{
+	position: relative;
+	width: 113px;
+	height: 130px;
+	left: 32px;
+	top: 18px;
+	background: #6F0
+	
+		}
+#titu{
+	position: relative;
+	left: 154px;
+	top: 67px;
+
+	}

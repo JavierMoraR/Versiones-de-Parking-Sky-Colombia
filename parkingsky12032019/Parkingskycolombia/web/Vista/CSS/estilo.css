@@ -1,0 +1,395 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	font-family:sans-serif;
+	}
+	body{
+	width:1000px;
+	height:1200px;
+	margin:auto;
+	text-align: center;
+
+background: -webkit-linear-gradient(top, #FFFFFF, #006699);
+background: -moz-linear-gradient(top 50deg, #FFFFFF 50%, #006699 30%);
+-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 5px 5px  ;
+	}
+	
+#chat{
+	position:fixed;
+	width:150px;
+	height:40px;
+	bottom:20px;
+	right:20px;
+	z-index:1;
+	color: #A5EBCD;
+	text-align:center;
+	line-height:40px;
+	font-family: 'Kaushan Script', cursive;
+	font-size:30px;
+	border-radius:20px 20px 0 0;
+	cursor:pointer;
+	background: -webkit-linear-gradient(top, #009933 20%, #63380E 10%);
+    background: -moz-linear-gradient(top 50deg,  #63380E 50%,  #CAC157 30%);
+	}
+
+
+header{
+	position:relative;
+	margin: auto;
+	width:1000px;
+	height:190px;
+	background:rgba(0,0,0,0.5) 3px 3px 5px;
+	border:1 px #666666;
+	border-radius:10px;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 5px 5px  ;
+
+	}
+	
+#logo{
+	position:absolute;
+	top:2px;
+	left:15px;
+	width:180px;
+	height:180px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align:center;
+	
+	border-radius:100%;
+	background:url(../IMAGENES/LOGO.png) no-repeat center;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+    -webkit-box-shadow: rgb(150,150,150) 5px 5px;
+     box-shadow:  rgb(150,150,150) 5px 5px  ;
+
+	}
+	#apDiv1 {
+	position: absolute;
+	width: 600px;
+	height: 150px;
+	z-index: 1;
+	left: 217px;
+	top: 55px;
+	}
+	#apDiv2 {
+	position:absolute;
+	width:142px;
+	height:33px;
+	z-index:2;
+	left: 800px;
+	top: 12px;
+	
+}
+.redes{
+	position:absolute;
+	width:42px;
+	height:42px;
+	background:#ccc;
+	border-radius:100%;
+	text-align:center;
+	line-height:42px;
+	color:white;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 5px 5px  ;
+	}
+	
+#icono1{
+	top:62px;
+	right:120px;
+	background:url(../IMAGENES/f1.png);
+		
+	}
+	
+#icono2{
+	top:62px;
+	right:71px;
+	background:url(../IMAGENES/tw.png);
+	}
+	
+#icono3{
+	top:62px;
+	right:19px;
+	background:url(../IMAGENES/i.png);
+	}
+	#icono3:OVER{
+}
+		
+nav{
+	position:relative;
+	margin:auto;
+	width:1000px;
+	height:70px;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 5px 5px  ;
+	}
+		
+.botones{
+
+	float:left;
+	width:196px;
+	margin:0px 2px;
+	height:48px;
+	background: url(../IMAGENES/boton%20Ap.png) no-repeat;
+	font-family: 'Kaushan Script', cursive;
+	color:white;
+	text-align:center;
+	line-height:48px;
+	border-radius:20px;
+	font-style:inherit;	
+	-moz-box-shadow: rgb(140,140,140) 5px 5px;
+-webkit-box-shadow: rgb(140,140,140) 5px 5px;
+box-shadow:  rgb(140,140,140) 5px 1px  ;
+	}
+	
+ .botones:hover{
+	background: url(../IMAGENES/boton%20Ac.png) no-repeat;
+-webkit-transform: skew(20deg);
+
+
+	}
+	
+.botones:active{
+	background:rgba(255,0,100,1);
+	-webkit-transform: scale(1,-1);
+	}
+	
+	.botones1{
+
+	float:left;
+	width:60px;
+	margin:0px 2px;
+	height:60px;
+	background: url(../IMAGENES/disp0.png) no-repeat;
+	font-family: 'Kaushan Script', cursive;
+	color:white;
+	text-align:center;
+	line-height:48px;
+	
+	font-style:inherit;	
+	
+	}
+	
+ .botones1:hover{
+	background: url(../IMAGENES/disp1.png) no-repeat;
+
+
+
+	}
+	
+.botones1:active{
+	background:rgba(255,0,100,1);
+	-webkit-transform: scale(1,-1);
+	}
+	
+	
+	
+	.f1{
+	top:50px;
+	font-size:20px;
+	}
+	
+#top{
+	position:relative;
+	margin:20px auto;
+	width:1000px;
+	height:230px;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 5px 1px  ;
+	}
+
+#top ul{
+	width:1010px;
+	height:192px;
+	}
+	
+#top ul li{
+	float:left;
+	width:326px;
+	height:230px;
+	margin-right:10px;
+	text-align:center;
+	-moz-box-shadow: rgb(150,150,150) 5px 5px;
+-webkit-box-shadow: rgb(150,150,150) 5px 5px;
+box-shadow:  rgb(150,150,150) 2px 0px  ;
+	}
+	
+#top ul li img{
+	
+	height:100px;
+	width:100px;
+	border-radius:100%;
+	}
+	
+#top ul li h1{
+	font-family: 'Kaushan Script', cursive;
+	}
+	
+#top ul li p{
+	font-size:14px;
+	margin:10px;
+	}
+	
+	
+section{
+    top:1px auto;
+	position:relative;
+	width:1000px;
+	height:370px;
+	}
+	.formulario{
+	text-align:center;
+    background: -webkit-radial-gradient(top,   #FFFFFF, #006699);
+    background: -moz-linear-gradient(top 50deg,  #5F79D3 50%, #A5EBCD 30%);
+	}
+	
+footer{
+	position: absolute;
+	width:1000px;
+	height:260px;
+	background:rgba(100,0,255,1);
+	text-align:center;
+	line-height:70px;
+	color: #C90;
+		background: -webkit-radial-gradient(top,   #FFFFFF, #006699);
+    background: -moz-linear-gradient(top 50deg,  #5F79D3 50%, #A5EBCD 30%);
+	font-size:18px;
+	}
+
+
+
+ul,ol{
+	list-style: none;
+}
+
+body{
+	font-family: Open sans;
+}
+
+.slideshow{
+	width: 100%;
+	position: relative
+	
+	}
+section{
+width:100%;
+}
+.slider li, ul{
+	width: 100%;
+}
+
+.slider li{
+	overflow: hidden;
+}
+
+.slider li img{
+	width: 100%;
+}
+
+.slider .caption{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 15px 50px;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+	text-align: center;
+	color: #fff;
+	z-index: 1;
+}
+
+.slider .caption h1{
+	font-size: 50px;
+}
+
+.slider .caption p{
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+.pagination{
+	position: absolute;
+	top: 102%;
+	width: 100%;
+
+	display: flex;
+	justify-content: center;
+}
+
+.pagination li{
+	font-size: 20px;
+	margin: 2px 5px;
+	color: #858585;
+	cursor: pointer;
+}
+
+.left, .right{
+	position: absolute;
+	top: 0;
+	height: 100%;
+
+	display: flex;
+	align-items: center;
+
+	color: #fff;
+	font-size: 35px;
+	cursor: pointer;
+	z-index: 2;
+}
+form input[type="submit"]{
+                background: #1dabb8;
+                color: white;
+                display: inline-block;
+                margin-left: 18px;
+                margin-bottom: 10px;
+                padding: 8px 20px;
+                border: none;
+                font-weight: bold;
+            }
+            form input[type="submit"]:hover{
+                background: darkorange;
+                cursor: pointer;
+            }
+
+.left{
+	left: 10px;
+}
+
+.right{
+	right: 10px;
+}
+
+
+@media screen and (max-width: 600px){
+	.slider .caption p{
+		display: none;
+	}
+
+	.slider .caption h1{
+		font-size: 35px;
+	}
+
+	.left, .right{
+		font-size: 30px;
+	}
+
+	.slider li img{
+		width: 600px;
+	}
+
+	.pagination{
+		display: none;
+	}
+}

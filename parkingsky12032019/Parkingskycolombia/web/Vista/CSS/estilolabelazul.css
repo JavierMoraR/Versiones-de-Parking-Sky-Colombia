@@ -1,0 +1,58 @@
+
+           /*     background-color: #eee;
+                
+ 
+            /**form{
+                margin: 8px auto;
+                width: 100px;
+                heigth: 100px;
+                background-bottom: 4px solid dark;
+            }**/
+            .labe{
+                display: block;
+                color: white;
+                background: #1dabb8;
+                padding: 12px 0;
+                text-align: right;
+                font-size: 20px;
+                font-weight: bold;
+                font-family: cursive;
+            }
+            .paslab[type="text"],input[type="password"]{
+                width: 100px;
+                padding: 12px 40px;
+                font-weight:bold;
+                font-family: cursive;
+                margin-left: 18px;
+                margin-bottom: 10px;
+                border: 1px solid #1dabb8;
+                text-transform: capitalize;
+                -moz-transition: all 0.5s;
+                
+            }
+            .icouser[type="text"]{
+                background: url("icons/user.png") 5px no-repeat;
+            }
+            .icopass[type="password"]{
+                background: url("icons/pass.png") 5px no-repeat;
+            }
+            .labpass[type="text"]:focus,input[type="password"]:focus{
+                border: 1px solid #333;
+                background: none;
+                width: 100px;
+                padding: 12px 10px;
+            }
+            .labcur[type="submit"]{
+                background: #1dabb8;
+                color: white;
+                display: inline-block;
+                margin-left: 18px;
+                margin-bottom: 10px;
+                padding: 8px 20px;
+                border: none;
+                font-weight: bold;
+            }
+            .labcar[type="submit"]:hover{
+                background: darkorange;
+                cursor: pointer;
+            }
